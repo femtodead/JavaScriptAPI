@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    gap: 0px;
+}
+
+.slider__img{
+    width: 100%;
+    
+}
+.slider__window{
+    position: relative;
+    height: 861.133px;
+}
+.slider__window:hover button{
+    display: block;
+}
+.slider__btnLeft{
+    position: absolute;
+    height: 861.133px;
+    width: 10%;
+    top: 0px;
+    background-color: black;
+    opacity: 0.5;
+    display: none;
+    z-index: 3;
+}
+.slider__btnRight{
+    position: absolute;
+    height: 861.133px;
+    width: 10%;
+    top: 0px;
+    left: 90%;
+    background-color: black;
+    opacity: 0.5;
+    display: none;
+}
+.slider__arrowImg{
+    width: 100%;
+    height: 861.133px;
+}
+
+
+.slider__switches{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.switches__target{
+    fill: blue;
+}
+.slider__img{
+    height: 861.133px;
+    
+}
+
